@@ -26,7 +26,10 @@ public class CalculadorDeArea {
     public void getLado(List<Forma> formas) {
         for (Forma forma : formas) {
             if (forma instanceof Triangulo triangulo) {
-                System.out.println("O lado é " + triangulo.getH());
+                System.out.println("Considerando um triangulo retangulo, os lados são altura, a base e a hipotenusa, " +
+                        "sendo que a altura é " + triangulo.getH() +
+            " a base é " + triangulo.getB() +
+                        " e a hipotenusa é " + Math.sqrt(Math.pow(triangulo.getB(), 2)+Math.pow(triangulo.getH(), 2)));
             }
         }
     }

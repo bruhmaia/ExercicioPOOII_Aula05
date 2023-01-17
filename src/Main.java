@@ -4,9 +4,10 @@ public class Main {
     public static void main(String[] args) {
         Circulo circulo = new Circulo(2);
         Retangulo retangulo = new Retangulo(4, 6);
-        Triangulo triangulo = new Triangulo(3, 2);
+        Triangulo triangulo = new Triangulo(3, 4);
 
         List<Forma> listaDeFormas = List.of(circulo, retangulo, triangulo);
+
 
         System.out.println("A area do retangulo é " + retangulo.getArea());
         System.out.println("A area do triangulo é " + triangulo.getArea());
